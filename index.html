@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact Labs — STEM Kits</title>
+  <style>
+    :root { --brand:#1f6feb; --ink:#0d1117; --muted:#57606a; --bg:#f6f8fa; --card:#fff; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:var(--bg); color:var(--ink); line-height:1.5;
+    }
+    header {
+      background:linear-gradient(135deg,#1f6feb,#0a3d91); color:#fff;
+      padding:48px 20px 40px; text-align:center;
+    }
+    header h1 { margin:0 0 8px; font-size:2rem; letter-spacing:-.5px; }
+    header p { margin:0; opacity:.9; font-size:1.05rem; }
+    main { max-width:760px; margin:0 auto; padding:28px 20px 60px; }
+    h2 { font-size:1.1rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin:8px 0 16px; }
+    .kit {
+      display:block; text-decoration:none; color:inherit; background:var(--card);
+      border:1px solid #d0d7de; border-radius:12px; padding:20px 22px; margin-bottom:16px;
+      transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+    }
+    .kit:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(31,111,235,.15); border-color:var(--brand); }
+    .kit h3 { margin:0 0 6px; font-size:1.25rem; color:var(--brand); }
+    .kit p { margin:0; color:var(--muted); }
+    .arrow { float:right; color:var(--brand); font-size:1.4rem; line-height:1; }
+    footer { text-align:center; color:var(--muted); font-size:.85rem; padding:24px 20px 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ Impact Labs</h1>
+    <p>Hands-on STEM kits &amp; guides</p>
+  </header>
+  <main>
+    <h2>Available Kits</h2>
+
+    <a class="kit" href="harnessing-the-power-of-the-wind/">
+      <span class="arrow">→</span>
+      <h3>Harnessing the Power of the Wind</h3>
+      <p>Wind energy &amp; circuits — build LED circuits, buttons, motors, and a wind turbine generator.</p>
+    </a>
+
+    <!-- Add new kits here as additional folders + cards -->
+
+  </main>
+  <footer>
+    Impact Labs · Mantum Tech
+  </footer>
+</body>
+</html>
